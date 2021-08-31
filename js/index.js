@@ -82,6 +82,6 @@ pTags.forEach(item => {
 })
 
 // Selecting intro h2 changes color
-introTxt.addEventListener('select', event => {
-    event.target.style.backgroundColor = 'green';
+document.addEventListener('scroll', event => {
+    introTxt.style.backgroundColor = 'green';
 })
