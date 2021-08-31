@@ -85,3 +85,8 @@ pTags.forEach(item => {
 document.addEventListener('scroll', event => {
     introTxt.style.backgroundColor = 'green';
 })
+
+// resizing the browser window will cause an alert
+window.addEventListener('resize', event => {
+    alert(`You're resizing the window!`);
+})
